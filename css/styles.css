@@ -1,4 +1,50 @@
+body {
+  background-color: #006151;
+
+}
+
+.container {
+  background-color: #18B197;
+  margin-top: 15%;
+  width: 400px;
+  height: 350px;
+  margin-left: 0 auto;
+  padding: 15px;
+  border: solid #007B66;
+  border-radius: 10px;
+
+}
+
+h1 {
+  color: #006151;
+  text-align: center;
+
+}
+
+p {
+  text-align: center;
+}
+
+.form-group {
+  margin-left: 23px;
+}
+
+#submit-btn {
+  margin-left: 23px;
+  float:left;
+
+}
+
+#reset {
+  float:right;
+  margin-right: 150px;
+}
+
 #result {
-  display: none;
-  
+  display:none;
+
+}
+
+input[type=text]{
+  border-radius:10px;
 }

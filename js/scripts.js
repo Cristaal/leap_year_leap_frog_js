@@ -15,9 +15,11 @@ $(document).ready(function() {
 
     if (result) {
       $(".not").empty();
+      $(".frogs").show();
     }
     else if (!result) {
       $(".not").text("not");
+      $(".frogs").hide();
     }
     // $(".year").text(year);
     // $(".not").empty();
