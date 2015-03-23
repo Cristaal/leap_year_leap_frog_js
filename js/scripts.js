@@ -21,12 +21,12 @@ $(document).ready(function() {
       $(".not").text("not");
       $(".frogs").hide();
     }
-    // $(".year").text(year);
-    // $(".not").empty();
-    //
-    // if (!result) {
-    //   $(".not").text("not");
-    // }
+    $(".year").text(year);
+    $(".not").empty();
+
+    if (!result) {
+      $(".not").text("not");
+    }
 
     $("#result").show();
     event.preventDefault();
