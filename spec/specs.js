@@ -1,6 +1,6 @@
 describe('leapYear', function() {
   it("is false if there are no numbers input in the field", function() {
-    expect(leapYear(NaN)).to.equal(false);
+    expect(leapYear(NaN)).to.equal("error");
   });
 
   it("is false for a year that is not divisible by 4", function() {
