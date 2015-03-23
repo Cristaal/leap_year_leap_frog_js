@@ -9,5 +9,12 @@ To run the app simply clone this repository and open up the index.html file in a
 
 MIT License, 2015  Crystal Contreras-Grossman & Tina Ramsey
 
+<h2>Motivation</h2>
+<ul>
+  <li>Writing JavaScript Functions</li>
+  <li>Using JQuery to retrieve input from html forms</li>
+  <li>User input validation</li>
+</ul>
+
 ##Known Issues
 No known bugs at this time.
