@@ -3,6 +3,10 @@ describe('leapYear', function() {
     expect(leapYear(NaN)).to.equal("error");
   });
 
+  it("is false if the inputted number is negative", function() {
+    expect(leapYear(-4)).to.equal("error");
+  })
+
   it("is false for a year that is not divisible by 4", function() {
     expect(leapYear(1999)).to.equal(false);
   });
