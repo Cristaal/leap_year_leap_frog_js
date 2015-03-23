@@ -1,11 +1,20 @@
-##Leap Year
-Leap year tells you if a year is a leap year or not.
+##<h2>Leap Year</h2>
 
-Javascript version 1.11.2
+Leap year is a simple JavaScript application that allows the user to enter a year and see if it is a leap year. The application also accounts for non-numerical inputs, as well as year 0, returing an error if any of these values are entered. Written using Javascript version 1.11.2
 
-##Authors
+<h3>Installation</h3>
+To run the app simply clone this repository and open up the index.html file in a web browser.
 
-Crystal Contreras-Grossman & Tina Ramsey
+<h3>License</h3>  
+
+MIT License, 2015  Crystal Contreras-Grossman & Tina Ramsey
+
+<h2>Motivation</h2>
+<ul>
+  <li>Writing JavaScript Functions</li>
+  <li>Using JQuery to retrieve input from html forms</li>
+  <li>User input validation</li>
+</ul>
 
 ##Known Issues
 No known bugs at this time.
